@@ -1,17 +1,19 @@
 # U.S.-National-Debt-Clock
 This project is a Python-based implementation of the U.S. National Debt Clock, a real-time display of the current national debt of the United States. The clock provides an up-to-date visual representation of the national debt, along with other relevant financial metrics.
+API:https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny
+
 #
 #tkinter:
-#import tkinter as tk: This module is used for creating graphical user interfaces (GUIs) in Python.
+import tkinter as tk: This module is used for creating graphical user interfaces (GUIs) in Python.
 #
 #requests:
-#import requests: This module is used for making HTTP requests to fetch data from APIs.
+import requests: This module is used for making HTTP requests to fetch data from APIs.
 #
-#logging:
+logging:
 #import logging: This module is used for logging messages to track events that happen while software runs.
 #
-#datetime:
+datetime:
 #from datetime import datetime, timedelta: This module supplies classes for manipulating dates and times.
 #
-#io:
+io:
 #from io import StringIO: This module implements the classes for in-memory stream handling.
