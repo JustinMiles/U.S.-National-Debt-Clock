@@ -49,7 +49,7 @@ Set-ExecutionPolicy RemoteSigned
 ### Note:
 - Be cautious when changing the execution policy, especially on production systems. The `RemoteSigned` policy is generally safe for development purposes.
 
-After changing the execution policy, you should be able to run your Python script without encountering the `PSSecurityException`. If you continue to experience issues, please provide more details about the error message or any additional context.
+After changing the execution policy, you should be able to run your Python script without encountering the `PSSecurityException`.
 
 To re-enable the security execution policy in PowerShell, you can set the execution policy back to its default value. The default execution policy for Windows is Restricted, which prevents any scripts from running.
 
@@ -61,3 +61,6 @@ Right-click on the Start menu and select "Windows PowerShell (Admin)" or "Comman
 Set the Execution Policy:
 
 In the PowerShell window, run the following command to set the execution policy to Restricted:
+```powershell
+Set-ExecutionPolicy Restricted
+```
