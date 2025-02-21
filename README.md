@@ -21,7 +21,7 @@ datetime:
 io:
 #from io import StringIO: This module implements the classes for in-memory stream handling.
 
-The error message you are seeing is a `PSSecurityException` from PowerShell, indicating that the script execution is blocked due to security settings. This is likely because the PowerShell execution policy is set to restrict running scripts.
+If you recive error message  `PSSecurityException` from PowerShell, indicating that the script execution is blocked due to security settings. This is likely because the PowerShell execution policy is set to restrict running scripts.
 
 To resolve this issue, you can change the PowerShell execution policy to allow script execution. Here are the steps to do this:
 
